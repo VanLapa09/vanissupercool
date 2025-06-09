@@ -1,4 +1,7 @@
-
+html {
+  scrollbar-color: #fd89f2 #faebc3 ; 
+  scrollbar-highlight-color: #fca2f0;
+}
   body {
 background: url(https://i.pinimg.com/736x/65/f1/4b/65f14b12a70f5e5dd3e6a342b5da17b0.jpg);
   background-size: 800px;
@@ -98,7 +101,7 @@ font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
   font-weight: bold;
   background-image: url(https://i.pinimg.com/originals/97/ae/33/97ae33912e5decac560899318a93c074.gif);
   background-position-x: center; 
-  background-position-y: 120px;
+  background-position-y: 130px;
 }
 
   
