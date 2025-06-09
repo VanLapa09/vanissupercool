@@ -1,13 +1,17 @@
-html {
-  scrollbar-color: #fd89f2 #faebc3 ; 
-  scrollbar-highlight-color: #fca2f0;
-}
+
+ 
   body {
-background: url(https://i.pinimg.com/736x/65/f1/4b/65f14b12a70f5e5dd3e6a342b5da17b0.jpg);
-  background-size: 800px;
+background: url(https://syntheticfruits.neocities.org/backgrounds/pinkcrsshrt.gif);
+  
   margin: 0;
   image-rendering: pixelated;
   font-family: 'plushie', ms ui gothic, ms pgothic, sans-serif;
+  
+}
+#stars2 {
+  grid-area: main;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 ::selection {
   background-color: #ffacdc95;
@@ -99,11 +103,17 @@ font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
   color: #FFC4D2;
   text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
   font-weight: bold;
-  background-image: url(https://i.pinimg.com/originals/97/ae/33/97ae33912e5decac560899318a93c074.gif);
+  background-image: url(https://syntheticfruits.neocities.org/backgrounds/pinkbg.gif);
   background-position-x: center; 
   background-position-y: 130px;
 }
-
+#glitterheart {
+  grid-area: ban;
+  margin-top: -80px;
+  margin-left: -109px;
+  transform: rotate(-40deg);
+  width: 200px;
+}
   
   
 
@@ -157,7 +167,12 @@ overflow: auto;
     color: #ff87d1;
     height: 80%; position: relative; font-family: plushie, ms ui gothic, ms pgothic, sans-serif; top: 8px;
 }
-
+.box3 {
+  grid-area: cred;
+ margin: 40px;
+ margin-left: 0px
+  
+}
 .top1 {
 text-align: center;
 background: rgb(247,136,163);
@@ -221,11 +236,11 @@ border-bottom-left-radius: 10%;
 
 
 a {
-color: #3897B5;
+color: #ffa0ff;
 }
 
 a:visited {
-color: #3897B5;
+color: #f8c2ec;
 }
 
 a.nav {
