@@ -13,6 +13,47 @@ background: url(https://syntheticfruits.neocities.org/backgrounds/pinkcrsshrt.gi
   margin-top: 0px;
   margin-left: 0px;
 }
+#statuscafe {
+     grid-area: box1;
+  BACKGROUND: #FFFCDD;
+   border: 1px solid #EA2E83;
+  height: 50px;
+font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
+  color: #FFC4D2;
+  text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 10px;
+  font-display: left;
+  letter-spacing: 1px;
+  line-height: 15px;
+  scroll-behavior: smooth;
+  scrollbar-width: 1px;
+  overflow-y: scroll;
+}
+
+#clock {
+  grid-area: box1;
+  width: 172px;
+  height: 19px;
+  BACKGROUND: #FFFCDD;
+   border: 1px solid #EA2E83;
+font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
+  color: #FFC4D2;
+  text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
+  align-content: center;
+}
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+    
+}
+#jewel {
+  margin-left: -120px;
+}
 ::selection {
   background-color: #ffacdc95;
   color: #FFF2A8;
