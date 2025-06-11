@@ -54,6 +54,21 @@ font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
 #jewel {
   margin-left: -120px;
 }
+#van {
+  margin-top: -75px;
+  margin-left: -40px;
+  transform: scale(.9)
+}
+#bow {
+  grid-area: ban;
+  margin-top: -340px;
+  margin-left: 580px;
+}
+#count {
+  grid-area: cred;
+  margin-left: -100px;
+
+}
 ::selection {
   background-color: #ffacdc95;
   color: #FFF2A8;
@@ -116,10 +131,51 @@ align-items: center;
 
 .nav {
   grid-area: nav;
-  position: relative;
-top: -3px;
+    height: 200px;
+    width: 100px;
+    overflow-y: scroll;
+    border: 1px solid #ff73d0;
+    background-image: url(https://syntheticfruits.neocities.org/backgrounds/checkerheart.gif);
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 5px;
+    
+}
+.nav li {
+  list-style-type: none;
+    margin-bottom: 2px;
+
+}
+#navilist{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #facfff;
+    background-color: #ff80bf;
+    box-shadow: 3px 3px #ff8aa7;
+    border-radius: 5px 5px 4px 0px;
+    padding: 2px;
+    display: block;
+    float: right;
+    margin-bottom: 6px;
+    text-decoration: none;
+    letter-spacing: 0px;
+    width: 80px;
+}
+.nav a#navilist:hover {
+    text-shadow: 2px 1px #ffc3eb;
+    background-color: #fff8be;
+    color: #ff76cb;
+    text-transform: uppercase;
+    padding: 2px;
 }
 
+#navilist a:active {
+    background-color: #fbaafb;
+    position: relative;
+    top: 2px;
+    
+}
 .top {
   grid-area: top;
   BACKGROUND: #FFFCDD;
@@ -213,66 +269,6 @@ overflow: auto;
  margin: 40px;
  margin-left: 0px
   
-}
-.top1 {
-text-align: center;
-background: rgb(247,136,163);
-  color: #FFFCDD;
-font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
-  font-weight: bold;
-    text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
-  height: 40px;
-  line-height: 37px;
-  box-shadow: 0px 0px 0px 1px #FFF8CC inset;
-border: 1px solid #ff5395;
-border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
-}
-
-.yellow {
-background: rgb(254,227,135);
-    color: #FFFCDD;
-font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
-  font-weight: bold;
-  text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
-  height: 33px;
-  line-height: 30px;
- box-shadow: 0px 0px 0px 1px #FFF8CC inset;
-border: 1px solid #ff5395;
-    border-top: transparent 1px solid;
-  text-align: center;
-}
-
-
-
-.pink {
-background: rgb(255, 202, 239);
-    color: #FFFCDD;
-font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
-  font-weight: bold;
-  text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
-  height: 33px;
-  line-height: 30px;
-  box-shadow: 0px 0px 0px 1px #FFF8CC inset;
-  border: 1px solid #ff5395;
-    border-top: transparent 1px solid;
-  text-align: center;
-}
-
-.bottom1 {
-text-align: center;
-background: rgb(247,136,163);
-  color: #FFFCDD;
-font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
-  font-weight: bold;
- text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
-  height: 40px;
-  line-height: 37px;
-  box-shadow: 0px 0px 0px 1px #FFF8CC inset;
-   border: 1px solid #ff5395;
-border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
-  border-top: transparent;
 }
 
 
