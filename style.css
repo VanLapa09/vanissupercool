@@ -43,7 +43,7 @@ font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
   text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
   align-content: center;
 }
-}
+
 #statuscafe-username {
     margin-bottom: .5em;
 }
@@ -52,7 +52,7 @@ font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
     
 }
 #jewel {
-  margin-left: -120px;
+  margin-left: -100px;
 }
 #van {
   margin-top: -75px;
@@ -176,6 +176,25 @@ align-items: center;
     top: 2px;
     
 }
+#poll {
+  grid-area: nav; 
+  margin-top: 220px;
+  margin-right: -100px;
+  height: 200px;
+  width: 120px;
+  overflow-y: scroll;
+   BACKGROUND: #FFFCDD;
+   border: 1px solid #EA2E83;
+font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
+  color: #FFC4D2;
+  text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
+  font-size: 10px;
+  font-display: left;
+  letter-spacing: 1px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 .top {
   grid-area: top;
   BACKGROUND: #FFFCDD;
