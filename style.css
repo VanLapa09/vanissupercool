@@ -1,12 +1,15 @@
 
- 
+ html {
+  scale: 1.2
+ }
+
   body {
 background: url(https://syntheticfruits.neocities.org/backgrounds/pinkcrsshrt.gif);
-  
   margin: 0;
   image-rendering: pixelated;
   font-family: 'plushie', ms ui gothic, ms pgothic, sans-serif;
-  
+  cursor: url(https://www.rw-designer.com/cursor-view/159848.png), default;
+position: center;
 }
 #stars2 {
   grid-area: main;
@@ -20,7 +23,7 @@ background: url(https://syntheticfruits.neocities.org/backgrounds/pinkcrsshrt.gi
   height: 50px;
 font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
   color: #FFC4D2;
-  text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
+  text-shadow: .5px .5px #ff8ee6, .5px 0px #ff80bf;
   font-weight: bold;
   line-height: 30px;
   font-size: 10px;
@@ -43,6 +46,7 @@ font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
   text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
   align-content: center;
 }
+
 
 #statuscafe-username {
     margin-bottom: .5em;
@@ -68,6 +72,84 @@ font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
   grid-area: cred;
   margin-left: -100px;
 
+}
+#photoban {
+  grid-area: top;
+  width: 200px;
+  float: top;
+  margin-top: -10px;
+  margin-left: -10px;
+  position: absolute;
+}
+#drink {
+  width: 50px;
+  height: 85px;
+  margin-top: 36px;
+  margin-left: -10px;
+  position: absolute;
+}
+
+#puppy {
+height: 30px;
+margin-top: 90px; 
+margin-left: 140px;
+position: absolute;
+}
+
+.click-box {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.text-box {
+  display: none;
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 50px;
+  background-image: url(https://cdn.discordapp.com/attachments/958200627639496744/1382502552448405584/download.png?ex=684b6356&is=684a11d6&hm=dad9227aba46afe92d22aa8f2728ceb66cb6016c5239d13c56261f05f798e49b&);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px;
+  width: 50px;
+  height: 45px;
+  z-index: 10px;
+}
+
+
+input:checked + .clickable-img + .text-box {
+  display: block;
+}
+.ads {
+  grid-area: box1;
+  background-image: url(https://syntheticfruits.neocities.org/gifs/skyscreen.gif);
+  background-size: 100%;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 140px;
+    padding: 5px;
+    padding-top: 25px;
+    margin-left: 30px;
+    margin-top: 26px;
+   text-align: center;
+   display: block; 
+   overflow: hidden;
+  cursor: pointer;
+}
+.slide {
+  position: absolute;
+  width: 84px;
+  height: 61px;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+   margin-top: -16px;
+    margin-left: -42px;
+}
+
+.slide.active {
+  opacity: 1;
 }
 ::selection {
   background-color: #ffacdc95;
@@ -110,6 +192,7 @@ margin: 0rem;
   justify-content: center;
 align-items: center;
   height: 95vh;
+ 
 }
 
 .grid {
@@ -194,19 +277,27 @@ font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-
+.toto {
+  margin-top: 3px;
+}
 .top {
   grid-area: top;
   BACKGROUND: #FFFCDD;
    border: 1px solid #EA2E83;
   height: 35px;
 font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
-  color: #FFC4D2;
+  color: #ffffff;
   text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
   font-weight: bold;
   line-height: 30px;
+  background-image: url(https://i.pinimg.com/originals/d0/e8/c0/d0e8c0f4517d4667e4946439ea78822c.gif);
+  background-size: .5;
+  
 }
-
+p {
+  text-align: center; 
+  margin-top: 5px;
+}
 .ban {
   grid-area: ban;
   box-shadow: 0px 0px 0px 1px #FFF8CC inset;
@@ -245,8 +336,9 @@ font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
 .cred {
   grid-area: cred;
   border: 1px solid #EA2E83;
-  box-shadow: 0px 0px 0px 3px inset #FFB9CA, 0px 0px 0px 6px inset #FFF2A8;
-  background: #FFFCDD;
+  background-color: #ffe1fb;
+  background-image: url(https://pixelsafari.neocities.org/dividers/vine14.gif);
+  background-position: bottom;
     color: #ff87d1;
   font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
   height: 70%;
