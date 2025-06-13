@@ -371,10 +371,24 @@ overflow: auto;
   grid-area: box2;
  border: 1px solid #EA2E83;
   background: #FFFCDD;
+  background-image: url(https://i.ibb.co/tYXYj68/chek-2.gif);
   padding: 13px;
     color: #ff87d1;
     height: 80%; position: relative; font-family: plushie, ms ui gothic, ms pgothic, sans-serif; top: 8px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
+.yay {
+  width: 120px; 
+  position: center;
+  margin-left: 10.5px; 
+   transition: box-shadow 0.5s ease-in-out;
+  
+}
+.yay:hover {
+		box-shadow: 0px 0px 20px 10px #fdbee8;
+	}
+
 .box3 {
   grid-area: cred;
  margin: 40px;
