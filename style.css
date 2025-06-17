@@ -56,11 +56,11 @@ font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
     
 }
 #jewel {
-  margin-left: -100px;
+  margin-left: -50px;
 }
 #van {
   margin-top: -75px;
-  margin-left: -40px;
+  margin-left: -60px;
   transform: scale(.9)
 }
 #bow {
@@ -312,9 +312,9 @@ font-family: plushie, ms ui gothic, ms pgothic, sans-serif;
   color: #FFC4D2;
   text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
   font-weight: bold;
-  background-image: url(https://syntheticfruits.neocities.org/backgrounds/pinkbg.gif);
-  background-position-x: center; 
-  background-position-y: 130px;
+  background-image: url(https://i.pinimg.com/originals/c5/e6/36/c5e636c24883e25ed61a5b44564b1447.gif);
+  background-size: 100% 100%;
+ 
 }
 #glitterheart {
   grid-area: ban;
