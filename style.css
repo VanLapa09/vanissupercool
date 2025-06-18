@@ -434,7 +434,24 @@ img#flow {
 span#welcomeNote p{
     line-height: 15px;
 }
+button.siteinfobutton {
+    padding: 5px;
+    background-color: rgb(237, 149, 230);
+    font-family: ModernDOS;
+   color: #FFC4D2;
+  text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    font-weight: bolder;
+    width: 180px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
 
+button.siteinfobutton:active {
+    position: relative;
+}
 a {
 color: #ffa0ff;
 }
