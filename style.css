@@ -429,29 +429,14 @@ img#flow {
     box-shadow: 1px #7386FF;
     border-radius: 10px;
     stroke-width: 10px;
+     transform: scale(.5);
 }
 
 span#welcomeNote p{
     line-height: 15px;
 }
-button.siteinfobutton {
-    padding: 5px;
-    background-color: rgb(237, 149, 230);
-    font-family: ModernDOS;
-   color: #FFC4D2;
-  text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
-    font-size: 13px;
-    letter-spacing: 2px;
-    line-height: 15px;
-    font-weight: bolder;
-    width: 180px;
-    margin-top: -30px;
-    margin-bottom: -10px;
-}
 
-button.siteinfobutton:active {
-    position: relative;
-}
+
 
 #main {
     position: sticky;
@@ -478,9 +463,10 @@ button.siteinfobutton:active {
     padding: 0px;
     margin: 2% auto auto;
     text-align: center;
-    background-image: url("gifs/cloud.gif");
+    background-image: url("https://pixelsafari.neocities.org/dividers/photobows.png");
     background-size: contain;
-    border-radius: 50%;
+    background-repeat: no-repeat;
+    border-radius: 2%;
 }
 
 .welcome img#flowerright {
@@ -532,10 +518,13 @@ img#close:hover {
     border-radius: 30px;
     border: 1px solid #fdbee8;
     padding: 2px;
-    margin: 5px;
+    margin-left: 20px;
     color: rgb(228, 83, 167);
     font-weight: bolder;
     line-height: 0px;
+    
+    height: 50px;
+    width: 300px;
 }
 
 span#Est {
@@ -544,7 +533,7 @@ span#Est {
 
 span#flow {
     font-family: ModernDOS;
-    font-size: 17px;
+    font-size: 10px;
     color: rgb(255, 255, 255);
     text-shadow: rgb(255, 136, 202) 1px 1px;
     vertical-align: middle;
