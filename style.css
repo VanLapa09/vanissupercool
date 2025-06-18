@@ -460,11 +460,11 @@ button.siteinfobutton:active {
 .closeInfo {
     height: 20px;
     font-size: 19px;
-    color: rgb(155, 163, 240);
+    color: #FFC4D2;
     padding-left: 2px;
-    text-shadow: rgb(16, 33, 141) 1px 1px;
-    background-color: rgb(115, 134, 255);
-    box-shadow: rgb(154, 164, 229) 2px 2px;
+    text-shadow: 1px 1px #ff8ee6, 1px 0px #ff80bf;
+    background-color: rgb(245, 207, 240);
+    box-shadow: #fdbee8 2px 2px;
     border: 1px solid rgb(247, 173, 255);
     width: 20px;
     border-radius: 25%;
@@ -473,7 +473,7 @@ button.siteinfobutton:active {
 }
 
 .welcome {
-    width: 60%;
+    width: 50%;
     height: 40px;
     padding: 0px;
     margin: 2% auto auto;
@@ -483,14 +483,19 @@ button.siteinfobutton:active {
     border-radius: 50%;
 }
 
-.welcome img#uniright {
+.welcome img#flowerright {
     float: right;
     vertical-align: middle;
+    margin-top: -6px;
+    transform: scale(.7);
 }
 
-.welcome img#unileft {
-    margin-top: -30px;
+.welcome img#flowerleft {
+    margin-top: -21px;
     float: left;
+    transform: scale(.7);
+    
+    
 }
 
 .welcome span#welcome {
@@ -514,8 +519,8 @@ img#close:hover {
 .welcome h1 {
     font-family: "2Credits";
     font-size: 13px;
-    color: rgb(250, 255, 179);
-    text-shadow: rgb(0, 0, 0) 1px 1px;
+    color: #faa7da;
+    text-shadow: rgb(243, 153, 252) 1px 1px;
     margin: auto auto -10px 43px;
     text-decoration-color: rgb(255, 173, 214);
     text-underline-offset: 2px;
@@ -523,12 +528,12 @@ img#close:hover {
 }
 
 .infobox p {
-    background-color: rgba(173, 173, 255, 0.6);
+    background-color: rgba(254, 210, 255, 0.6);
     border-radius: 30px;
-    border: 1px dotted rgb(150, 251, 179);
+    border: 1px solid #fdbee8;
     padding: 2px;
     margin: 5px;
-    color: rgb(78, 91, 208);
+    color: rgb(228, 83, 167);
     font-weight: bolder;
     line-height: 0px;
 }
@@ -537,21 +542,26 @@ span#Est {
     font-size: 8px;
 }
 
-span#MSDos {
+span#flow {
     font-family: ModernDOS;
     font-size: 17px;
     color: rgb(255, 255, 255);
-    text-shadow: rgb(50, 67, 219) 1px 1px;
+    text-shadow: rgb(255, 136, 202) 1px 1px;
     vertical-align: middle;
     margin-bottom: -5px;
 }
 
 img#emoteleft {
     vertical-align: middle;
+    transform: scale(.5);
 }
 
 img#emoteright {
     vertical-align: middle;
+    transform: scale(.5);
+}
+img#poopoo {
+  transform: scale(.5);
 }
 a {
 color: #ffa0ff;
