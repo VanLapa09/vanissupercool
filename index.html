@@ -73,10 +73,31 @@ else if (response === "Usagi") {
       <!--actual homepage -->
       <div class="main">
         <img id="stars" src="https://pixelsafari.neocities.org/dividers/more/hangingstars.gif"> 
+<div class="textbox">
+  
+  <div id="messageBoxBack" class="messageBoxBack blurred"></div> <!-- always stays -->
 
-        <div class="textbox"><div id="messageBoxBack" class="messageBoxBack"></div>
-          <div class="infobox" id="infoBox">
-                        <div class="closeInfo"><a onmouseover="closeInfo()" onclick="myFunction(); closeCover()">X</a></div>
+  <div class="infobox" id="infoBox">
+            <script>
+  function wowie() {
+    // Hide the infobox
+    document.getElementById("infoBox").style.display = "none";
+    
+    // Remove blur effect
+    document.getElementById("messageBoxBack").classList.remove("blurred");
+  }
+
+  function openInfoBox() {
+    // Show the infobox
+    document.getElementById("infoBox").style.display = "block";
+    
+    // Add blur effect
+    document.getElementById("messageBoxBack").classList.add("blurred");
+  }
+
+  
+</script> <div class="closeInfo" onclick="wowie(); closeCover()">X</div>
+
                         <div class="welcome"> 
                             
                             <span id="welcome"><img id="flowerright" src="https://artwork.neocities.org/toybox/lacroixdaisy.gif">
@@ -86,11 +107,21 @@ else if (response === "Usagi") {
                         
                         </div>
                            
-                        <p><span id="flow"><img src="https://artwork.neocities.org/pixels/kaoanis/002.gif" id="emoteleft">van's<img id="poopoo" src="https://artwork.neocities.org/photos/garden/tumblr_inline_peln96qXvx1synnum_540.gif">digi-diary<img src="https://artwork.neocities.org/pixels/kaoanis/017l.gif" id="emoteright"></span> <br><span id="Est">est. 2025 </span></p>
+                       <div class="diaryTitle">
+  <img src="https://artwork.neocities.org/pixels/kaoanis/002.gif" class="emote">
+  
+  <span class="diaryText">van's</span>
+  
+  <img src="https://artwork.neocities.org/photos/garden/tumblr_inline_peln96qXvx1synnum_540.gif" class="flower">
+  
+  <span class="diaryText soft">digi-diary</span>
+  
+  <img src="https://artwork.neocities.org/pixels/kaoanis/017l.gif" class="emote">
+</div>
                         <img src="https://artwork.neocities.org/pixels/kaoanis/ab17.gif" id="tv">
-                        <span id="welcomeNote"><p>Take your time looking around ! Home will always be here 
+                        <span id="welcomeNote"><p> find hidden easter eggs everywhere ! 
                           <br>
-                          <span id="surreal">"meow"</span> 
+                          <span id="surreal">"If you look for it, I've got a sneaky feeling you'll find that love actually is all around"</span> 
                         </p></span>
                         
                         
