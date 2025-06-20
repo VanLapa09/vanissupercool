@@ -80,22 +80,14 @@ else if (response === "Usagi") {
   <div class="infobox" id="infoBox">
             <script>
   function wowie() {
-    // Hide the infobox
+  
     document.getElementById("infoBox").style.display = "none";
-    
-    // Remove blur effect
     document.getElementById("messageBoxBack").classList.remove("blurred");
   }
-
   function openInfoBox() {
-    // Show the infobox
     document.getElementById("infoBox").style.display = "block";
-    
-    // Add blur effect
     document.getElementById("messageBoxBack").classList.add("blurred");
   }
-
-  
 </script> <div class="closeInfo" onclick="wowie(); closeCover()">X</div>
 
                         <div class="welcome"> 
